@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-.navbar {
-	background: rgb(53, 53, 53);
-	border-bottom: 2px solid #169179;
-}
+/* mix fix */
 .row-margin {
 	margin-bottom: 20px;
 	margin-top: 50px;
@@ -14,6 +10,13 @@ a {
 a:hover{
 	color: rgb(161, 219, 197);
 }
+.negative-margin {
+	margin-top: -30px;
+}
+.col-margin {
+	margin:10px;
+}
+/* Navigacny panel */
 a.nav-link {
 	color: white;
 }
@@ -23,12 +26,17 @@ a.nav-link.active {
 a.nav-link:hover {
 	color: rgb(161, 219, 197)!important;
 }
+.navbar {
+	background: rgb(53, 53, 53);
+	border-bottom: 2px solid #169179;
+}
 .navbar-toggler {
 	background-color: rgb(161, 219, 197);
 }
 #nav-logo {
 	max-height: 50px;
 }
+/* obrazky */
 #about-image {
 	max-height: 100%;
 	max-width: 100%;
@@ -38,12 +46,8 @@ a.nav-link:hover {
 	max-width: 80%;
 	padding: 20px 0 0 10px;
 }
-.negative-margin {
-	margin-top: -30px;
-}
-.col-margin {
-	margin:10px;
-}
+
+/* footer */
 .footer-panel-row {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -58,6 +62,8 @@ a.nav-link:hover {
 	margin-bottom: 10px;
 	max-height: 75px;
 }
+
+/* domovska stranka */
 #home-row {
 	height: 90vh;
 }
@@ -81,6 +87,8 @@ a.nav-link:hover {
 #logo-home-section {
 	max-height: 75px;
 }
+
+/* texty */
 .text-white {
 	color:#ffffff;
 }
@@ -102,3 +110,41 @@ a.nav-link:hover {
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif ;
 }
+
+/* tabulka */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif ;
+}
+td, th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #169179;
+}
+th {
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  table {
+    font-size: 12px;
+  }
+  td, th {
+    padding: 4px;
+  }
+}
+/*
+@media (max-width: 767px) {
+  table,
+  tbody,
+  td,
+  th,
+  tr {
+    display: block;
+    width: 100%;
+  }
+  td,
+  th {
+    text-align: center;
+  }
+}*/
