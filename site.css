@@ -4,6 +4,10 @@
 	background: rgb(53, 53, 53);
 	border-bottom: 2px solid #169179;
 }
+.row-margin {
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
 a {
   text-decoration: none;
 }
@@ -25,9 +29,17 @@ a.nav-link:hover {
 #nav-logo {
 	max-height: 50px;
 }
-.about-image {
+#about-image {
 	max-height: 100%;
 	max-width: 100%;
+	padding: 20px;
+}
+#miska-image {
+	max-width: 80%;
+	padding: 20px 0 0 10px;
+}
+.negative-margin {
+	margin-top: -30px;
 }
 .col-margin {
 	margin:10px;
